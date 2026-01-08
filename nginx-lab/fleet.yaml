@@ -1,0 +1,11 @@
+defaultNamespace: nginx-lab
+
+# Optional: create namespace if it doesn't exist
+namespaceLabels:
+  managed-by: fleet
+
+# Helm‑style deployment options (applied even to plain manifests)
+helm:
+  releaseName: nginx-lab
+  atomic: true
+  waitForJobs: false
