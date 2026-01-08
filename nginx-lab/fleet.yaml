@@ -7,5 +7,4 @@ namespaceLabels:
 # Helm‑style deployment options (applied even to plain manifests)
 helm:
   releaseName: nginx-lab
-  atomic: true
   waitForJobs: false
